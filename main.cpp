@@ -4,11 +4,7 @@
 int main() {
     // helloWorld();
 
-    // pointers();  
-    // dynamicMemory();
-    // arrayDemo();
-    // explorePointers();
-    pointerPractice();
+    pointers();
 
     return 0;
 }
