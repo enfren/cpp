@@ -1,6 +1,7 @@
-#include <iostream>
-using namespace std;
+#include "include/hello.h"
+#include "include/pointers.h"
 int main() {
-    cout << "Hello, world!" << endl;
+    // helloWorld();  // Commented out
+    demoPointers();   // Active for testing
     return 0;
 }
