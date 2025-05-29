@@ -4,4 +4,5 @@ void pointers();       // Declare pointers function for use in other files
 void changeValue(int* p);  // Declare changeValue function for pointer modification
 void dynamicMemory();  // Declare dynamicMemory function for dynamic allocation
 void arrayDemo();      // Declare arrayDemo function for array allocation
+void explorePointers(); // Declare explorePointers function for interactive pointer demo
 #endif                // End the include guard conditional

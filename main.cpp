@@ -1,11 +1,12 @@
 #include "include/hello.h"     // Include header for helloWorld function
-#include "include/pointers.h"  // Include header for demoPointers function
+#include "include/pointers.h"  // Include header for pointers function
 
 int main() {
-    // helloWorld(); 
-    // pointers();
-    // dynamicMemory();
-    arrayDemo();
-
+    // helloWorld();  
+    // pointers();       
+    // dynamicMemory(); 
+    // arrayDemo();     
+    explorePointers(); 
+    
     return 0;
 }
