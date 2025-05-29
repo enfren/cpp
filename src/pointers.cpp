@@ -1,6 +1,6 @@
-#include <iostream>
-#include "pointers.h"
-using namespace std;
+#include <iostream>   // Include input/output stream library for cout
+#include "pointers.h" // Include header with demoPointers function declaration
+using namespace std;  // Use standard namespace to avoid std:: prefix
 void demoPointers() {
     int x = 10;
     int* ptr = &x;
