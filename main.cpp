@@ -2,11 +2,13 @@
 #include "include/pointers.h"  // Include header for pointers function
 
 int main() {
-    // helloWorld();  
-    // pointers();       
-    // dynamicMemory(); 
-    // arrayDemo();     
-    explorePointers(); 
-    
+    // helloWorld();
+
+    // pointers();  
+    // dynamicMemory();
+    // arrayDemo();
+    // explorePointers();
+    pointerPractice();
+
     return 0;
 }

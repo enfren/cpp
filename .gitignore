@@ -1,5 +1,6 @@
 main          # Ignore main executable
 *.o           # Ignore object files from compilation
 *.out         # Ignore other executable outputs
+*.exe         # Ignore Windows executables
 *.swp         # Ignore Vim swap files
 .vscode/      # Ignore VS Code settings in Codespaces
