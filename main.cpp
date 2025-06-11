@@ -1,10 +1,33 @@
-#include "include/hello.h"     // Include header for helloWorld function
-#include "include/pointers.h"  // Include header for pointers function
+#include <iostream>
+#include "include/pointers.h"
+#include "include/references.h"
+#include "include/classes.h"
+using namespace std;
 
 int main() {
-    // helloWorld();
-
-    pointers();
-
-    return 0;
+  while (true) {
+    cout << "\nC++ Learning Menu - Choose a topic (1-3, 0 to exit):\n"
+         << "1. Pointers\n"
+         << "2. References\n"
+         << "3. Classes, Inheritance, Polymorphism\n"
+         << "Enter choice: ";
+    int choice;
+    if (!(cin >> choice)) {
+      cout << "Invalid input. Please enter a number.\n";
+      cin.clear();
+      cin.ignore(10000, '\n');
+      continue;
+    }
+    if (choice == 0) {
+      cout << "Exiting.\n";
+      break;
+    }
+    switch (choice) {
+      case 1: pointers(); break;
+      case 2: references(); break;
+      case 3: classes(); break;
+      default: cout << "Invalid choice. Choose 1-3 or 0 to exit.\n"; break;
+    }
+  }
+  return 0;
 }

@@ -1,6 +1,7 @@
-main          # Ignore main executable
-*.o           # Ignore object files from compilation
+program       # Ignore your Makefile's executable
+*.o           # Ignore object files
 *.out         # Ignore other executable outputs
 *.exe         # Ignore Windows executables
 *.swp         # Ignore Vim swap files
-.vscode/      # Ignore VS Code settings in Codespaces
+.vscode/      # Ignore VS Code settings
+.DS_Store     # Ignore macOS system files
