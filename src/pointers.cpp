@@ -15,7 +15,7 @@ cout << "Value: " << x << ", Address: " << ptr << endl;
 
 // 2. Dereferencing
 void dereference() {
-cout << "Use * to access/modify a pointer's value.\n"
+    cout << "Use * to access/modify a pointer's value.\n"
 << "Enter an integer: ";
 int i1;
 cout << "Garbage value of i1: " << i1 << " &i1: " << &i1 << endl;
