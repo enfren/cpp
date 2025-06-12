@@ -22,21 +22,22 @@ void basicPointer() {
 
 // 2. Dereferencing
 void dereference() {
-  cout << "2. Use * to access/modify a pointer's value.\n"
-       << "Enter an integer: ";
-  int i1;
+  cout << "\n2. Dereferencing: Use * to access/modify a pointer's value.\n"
+       << "Enter first integer: ";
+  int integer1;
   // cout << "Garbage value of i1: " << i1 << " &i1: " << &i1 << endl;
-  cin >> i1;
-  cout << "Value of i1: " << i1 << endl;
-  int* ptr = &i1;
-  cout << "ptr: " << ptr << " &i1: " << &i1 << endl;
+  cin >> integer1;
+  cout << "Value of first integer: " << integer1 << endl;
+  int* ptr = &integer1; // Declare pointer, assign address of integer1
+  cout << "ptr: " << ptr << endl;
+  cout << "Address of first integer: " << &integer1 << endl;
   cout << "&ptr: " << &ptr << endl;
-  cout << "Enter a second integer: ";
-  int i2;
-  cin >> i2;
-  *ptr = i2; // At address stored in ptr overwrite i1 with i2
-  cout << "Value of i2: " << i2 << endl;
-  cout << "Address of i2: " << &i2 << " ptr :" << ptr << endl;
+  cout << "Enter second integer: ";
+  int integer2;
+  cin >> integer2;
+  *ptr = integer2; // Dereference ptr, assign integer2's value to integer1
+  cout << "Value of second integer: " << integer2 << endl;
+  cout << "Address of second integer: " << &integer2 << " ptr :" << ptr << endl;
 }
 
 // 3. Null Pointer
