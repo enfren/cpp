@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -Iinclude
+CFLAGS = -Iinclude -std=c++17
 SRCS = main.cpp src/pointers.cpp src/references.cpp src/classes.cpp
 OBJS = $(SRCS:.cpp=.o)
 EXEC = program

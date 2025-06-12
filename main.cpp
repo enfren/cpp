@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 #include "include/pointers.h"
 #include "include/references.h"
 #include "include/classes.h"
@@ -15,7 +16,7 @@ int main() {
     if (!(cin >> choice)) {
       cout << "Invalid input. Please enter a number.\n";
       cin.clear();
-      cin.ignore(10000, '\n');
+      cin.ignore(numeric_limits<streamsize>::max(), '\n');
       continue;
     }
     if (choice == 0) {
@@ -25,7 +26,7 @@ int main() {
     switch (choice) {
       case 1: pointers(); break;
       case 2: references(); break;
-      case 3: classes(); break;
+      case 3: finance::classes(); break;
       default: cout << "Invalid choice. Choose 1-3 or 0 to exit.\n"; break;
     }
   }
