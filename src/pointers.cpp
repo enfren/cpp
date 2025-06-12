@@ -25,7 +25,7 @@ void dereference() {
   cout << "2. Use * to access/modify a pointer's value.\n"
        << "Enter an integer: ";
   int i1;
-  cout << "Garbage value of i1: " << i1 << " &i1: " << &i1 << endl;
+  // cout << "Garbage value of i1: " << i1 << " &i1: " << &i1 << endl;
   cin >> i1;
   cout << "Value of i1: " << i1 << endl;
   int* ptr = &i1;
